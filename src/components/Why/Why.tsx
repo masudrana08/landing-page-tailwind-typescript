@@ -3,6 +3,7 @@ import GuarantyImg from "../../assets/img/guaranty.png"
 import ServiceImg from "../../assets/img/service.png"
 import ExperienceImg from "../../assets/img/experience.png"
 import Adventure from '../Adventure/Adventure'
+import Newsletter from '../Newsletter/Newsletter'
 
 export default function Why() {
   return (
@@ -27,6 +28,9 @@ export default function Why() {
       </div>
       <div className="pt-20 relative">
           <Adventure />
+      </div>
+      <div className="pt-20 relative">
+          <Newsletter />
       </div>
     </div>
   )

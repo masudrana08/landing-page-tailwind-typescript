@@ -13,6 +13,7 @@ function App() {
       <Popular />
       <Clock />
       <Why />
+      <div className="h-screen"> </div>
     </div>
   );
 }
