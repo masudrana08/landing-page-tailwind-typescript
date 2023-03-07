@@ -6,9 +6,9 @@ import Popular3 from "../../assets/img/popular3.png"
 import Popular4 from "../../assets/img/popular4.png"
 export default function Popular() {
   return (
-    <div style={{backgroundImage: `url(${BgImg})`}} className="sm:h-screen bg-cover flex items-center justify-center">
-      <div>
-      <h1 className='text-4xl text-slate-800 font-cursive font-bold  text-center mb-10'>Popular Destination</h1>
+    <div className="relative before:content['a'] before:bg-popular before:bg-cover before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:opacity-40 py-20 lg:h-screen bg-cover flex items-center justify-center">
+      <div className='relative'>
+      <h1 className='text-4xl text-slate-800 font-cursive font-bold  text-center mb-20'>Popular Destination</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className='w-64 bg-white'>
             <img className="min-w-full" src={Popular1} alt="" />

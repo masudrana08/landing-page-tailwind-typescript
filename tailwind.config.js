@@ -14,6 +14,11 @@ module.exports = {
         "hero": ["Abril Fatface", "cursive"],
         "cursive": ["Grape Nuts", "cursive"]
       },
+      backgroundImage: {
+        'popular': "url('./assets/img/popularbg.jpg')",
+        'clock': "url('./assets/img/clockbg.png')",
+        'why': "url('./assets/img/why.jpg')",
+      }
     },
   },
   plugins: [],
