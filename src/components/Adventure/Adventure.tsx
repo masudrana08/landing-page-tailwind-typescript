@@ -12,7 +12,7 @@ export default function Adventure() {
         Have an Adventure Today
       </h1>
       <div className="flex justify-center">
-        <div className="grid grid-cols-3 max-w-screen-lg gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-screen-lg gap-8 mx-2 sm:mx-10">
           <div className="row-span-2 relative">
             <img className="h-full" src={AdventureImg1} alt="" />
             <div className="absolute bottom-0 bg-slate-50/70 rounded-tr-sm px-3 w-4/5">
