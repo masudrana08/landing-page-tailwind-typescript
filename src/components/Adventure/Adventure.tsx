@@ -7,8 +7,8 @@ import AdventureImg5 from "../../assets/img/adventure5.png";
 
 export default function Adventure() {
   return (
-    <div>
-      <h1 className="font-cursive text-4xl text-center font-bold my-20">
+    <div id="tours">
+      <h1 className="font-cursive text-3xl xs:text-4xl text-center font-bold my-20">
         Have an Adventure Today
       </h1>
       <div className="flex justify-center">

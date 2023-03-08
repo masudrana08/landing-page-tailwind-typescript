@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <div className="bg-white/70 flex justify-center">
       <div className=" max-w-lg py-10 px-10 sm:px-0">
-        <h1 className="text-5xl font-cursive font-bold text-slate-600">
+        <h1 className="text-4xl md:text-5xl font-cursive font-bold text-slate-600">
           Looking for an Experience?
         </h1>
         <p className="mt-5 text-xl text-slate-500 font-thin">

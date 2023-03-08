@@ -9,8 +9,8 @@ import Experience from '../Experience/Experience'
 
 export default function Why() {
   return (
-    <div className="relative pt-20  before:content['a'] before:bg-why before:bg-cover before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:opacity-50 flex flex-col justify-center">
-      <h1 className="relative text-4xl text-black font-cursive font-bold text-center mb-20">Why Us?</h1>
+    <div className="relative pt-20  before:content[''] before:bg-why before:bg-cover before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:opacity-50 flex flex-col justify-center">
+      <h1 className="relative text-3xl xs:text-4xl text-black font-cursive font-bold text-center mb-20">Why Us?</h1>
       <div className='relative flex flex-col sm:flex-row justify-center items-center gap-5 '>
         <div className="gap-y-1.5 bg-slate-100/70 w-60 px-4 py-12 flex flex-col items-center text-center ">
           <img src={GuarantyImg} alt="" />
