@@ -30,50 +30,50 @@ export default function Newsletter() {
             <button className="text-slate-600">Subscribe</button>
           </div>
         </div>
-        <div className="my-20 lg:my-0">
+        <div className="my-20 lg:my-0 mx-5">
           <h1 className="font-cursive text-3xl  font-bold text-center sm:text-left">
             Award Winning
           </h1>
           <p className="my-5  text-slate-500 text-center sm:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit necess</p>
-          <div className="grid grid-cols-2 gap-5 mx-5 sm:mx-0">
+          <div className="grid grid-cols-2 gap-5  sm:mx-0">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-                <img src={Award1} alt="" />
-                <div>
+                <img className="w-40" src={Award1} alt="" />
+                <div className="w-40">
                     <b className="text-slate-700">Attractions</b>
                     <p>Top 10 Attractions</p>
                 </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-                <img src={Award2} alt="" />
-                <div>
+            <div className="flex flex-col sm:flex-row items-end items-start sm:items-center gap-2">
+                <img className="w-40" src={Award2} alt="" />
+                <div className="w-40">
                     <b className="text-slate-700">Hotels</b>
                     <p>Top 5 Hotels</p>
                 </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-                <img src={Award3} alt="" />
-                <div>
+            <div className="flex flex-col sm:flex-row items-start  sm:items-center gap-2">
+                <img className="w-40" src={Award3} alt="" />
+                <div className="w-40">
                     <b className="text-slate-700">Resorts</b>
                     <p>Top Resorts</p>
                 </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-                <img src={Award4} alt="" />
-                <div>
+            <div className="flex flex-col sm:flex-row items-start items-end sm:items-center gap-2">
+                <img className="w-40" src={Award4} alt="" />
+                <div className="w-40">
                     <b className="text-slate-700">Landmarks</b>
-                    <p>Top 10 Landmarks</p>
+                    <p>Top Landmarks</p>
                 </div>
             </div>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-                <img src={Award5} alt="" />
-                <div>
+                <img className="w-40" src={Award5} alt="" />
+                <div className="w-40">
                     <b className="text-slate-700">Beaches</b>
                     <p>Top 7 Beaches</p>
                 </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-                <img src={Award6} alt="" />
-                <div>
+            <div className="flex flex-col sm:flex-row items-start items-end sm:items-center gap-2">
+                <img className="w-40" src={Award6} alt="" />
+                <div className="w-40">
                     <b className="text-slate-700">Islands</b>
                     <p>Top Islands</p>
                 </div>
